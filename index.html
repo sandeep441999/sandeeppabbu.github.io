@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sandeep Pabbu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sandeep Pabbu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Sandeep Pabbu profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sandeep Pabbu</h1>
+        <p class="section__text__p2">Full Stack Java Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sandeep-p-a52a92297/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>7+ years <br />Full Stack Java Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3><br />
+              <p><h4>Saint Louis University 2022 - 2024</h4><br />Master's Degree - Computer Science <br /> CGPA : 4.0/4.0</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Full Stack Java Developer with over 7 years of comprehensive experience in the analysis, design, development, testing, and implementation of web-based, client/server, enterprise, distributed, and microservices applications throughout all phases of the Software Development Life Cycle (SDLC), utilizing methodologies such as Agile, Scrum, Iterative, and Waterfall. Adept in front-end technologies including HTML5, CSS3, JavaScript, Typescript, ReactJS, AngularJS, NextJS, and more, as well as back-end technologies like Java, J2EE, Spring Framework, Spring Boot, Node.js, and Express.js. Demonstrates expertise in RESTful and SOAP web services development, ORM frameworks such as Hibernate, and database technologies like Oracle, MySQL, PostgreSQL, SQL Server, and NoSQL databases. Skilled in using IDEs such as Eclipse, IntelliJ, and NetBeans, and proficient with version control tools like Git and SVN, and CI/CD tools including Jenkins and Maven. Extensive experience with AWS services, containerization tools like Docker and Kubernetes, and cloud platforms AWS, and Azure. Strong background in developing applications with JMS, RabbitMQ, Apache Kafka, and integrating with SOA and Microservices architecture. Proficient in utilizing testing frameworks and creating technical documentation with UML and J2EE design patterns. Experienced in various roles including developer, and onsite coordinator, with direct client interaction at client locations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="experience-div">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Full Stack Java Developer</h2>
+              <div class="article-container">
+                <h2 style="font-size: 1.5em; color: #333;">Carrier Global <p style="font-size: 1em; font-weight: bold; color: #555; display: inline;">- Florida - FL</p></h2>
+                <h3 style="font-size: 1.2em; color: #666;">Apr 2023 - Present</h3>
+              </div>
+            </div>
+            <br>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Full Stack Java Developer</h2>
+              <div class="article-container">
+                <h2 style="font-size: 1.5em; color: #333;">Tecnics <p style="font-size: 1em; font-weight: bold; color: #555; display: inline;">- Houston - TX</p></h2>
+                <h3 style="font-size: 1.2em; color: #666;">Feb 2021 - Apr 2023</h3>
+              </div>
+            </div>
+            <br>
+            
+            <div class="details-container">
+              <h2 class="experience-sub-title">Software Engineer</h2>
+              <div class="article-container">
+                <h2 style="font-size: 1.5em; color: #333;">The Bank of Missouri <p style="font-size: 1em; font-weight: bold; color: #555; display: inline;">- Perryville - MO</p></h2>
+                <h3 style="font-size: 1.2em; color: #666;">Jan 2019 - Feb 2021</h3>
+              </div>
+            </div>
+            <br>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Junior Software Engineer</h2>
+              <div class="article-container">
+                <h2 style="font-size: 1.5em; color: #333;">Pronix IT <p style="font-size: 1em; font-weight: bold; color: #555; display: inline;">- Hyderabad - India</p></h2>
+                <h3 style="font-size: 1.2em; color: #666;">July 2017 - Dec 2018</h3>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skill'"
+      />
+    </section>
+
+    <section id="skill">
+      <p class="section__text__p1">Know More About My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="experience-div">
+            <div class="custom-container">
+            <h3 class="custom-h3">Programming languages:</h3> Java (8/11), JavaScript, J2EE, Python, C/C++, SQL, PL/SQL, T-SQL.<br /><br />
+            <h3 class="custom-h3">Frameworks/Libraries:</h3> Struts, Spring MVC, JSF, Spring Boot, Hibernate, Microservices, Node JS, React JS, Angular JS, BootStrap.<br /><br />
+            <h3 class="custom-h3">Web Services:</h3> SOAP, REST, GraphQL, WebSockets, WSDL, JAX-WS.<br /><br />
+            <h3 class="custom-h3">Database:</h3> Oracle, DB2, SQL Server, Redis, Azure Blob Storage, MongoDB, MySQL, PostgreSQL, AWS S3.<br /><br />
+            <h3 class="custom-h3">Messaging:</h3> Azure Service Bus, RabbitMQ, Apache Kafka.<br /><br />
+            <h3 class="custom-h3">Web/Application Servers:</h3> Apache Tomcat, JBoss, WebSphere, Web logic.<br /><br />
+            <h3 class="custom-h3">Version Control System:</h3> Git/ GitHub, Perforce & SVN, CVS, VSS, Subversion, Clear Case.<br /><br />
+            <h3 class="custom-h3">CI/CD & Deployment:</h3> Jenkins, JIRA, Docker, Kubernetes.<br /><br />
+            <h3 class="custom-h3">Testing & Tools:</h3> JUnit, Postman, Mockito, Firefox Plugin.<br /><br />
+            <h3 class="custom-h3">Operating Systems:</h3> Windows and Linux/Unix.<br /><br />
+            <h3 class="custom-h3">Cloud Technologies:</h3> AWS, Microsoft Azure.<br /><br />
+            <h3 class="custom-h3">IDEs used:</h3> IntelliJ, Visual Studio, Eclipse, NetBeans, Rider.<br /><br />
+          </div>
+        </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sandeeppabbu45@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sandeep-p-a52a92297/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sandeep Pabbu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
